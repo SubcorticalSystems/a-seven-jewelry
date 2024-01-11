@@ -11,10 +11,13 @@
 }
 
 body {
+  /*
   padding-top: 3rem;
   padding-bottom: 3rem;
+  */
   color: #5a5a5a;
   font-family: var(--custom-font);
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -197,9 +200,43 @@ h1{
   -webkit-overflow-scrolling: touch;
 }
 
-
 .fw-normal{
   font-size: 2.3rem;
   padding-top: .8rem;
   padding-bottom: .5rem;
+}
+
+.marketing{
+  padding-bottom: 0;
+}
+
+.footer-container{
+  padding-bottom: 2rem;
+}
+
+/*Logo*/
+.navbar-brand{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgb(255, 255, 255);
+}
+.nav-link{
+  color: rgb(24, 23, 23);
+}
+
+.nav-link:hover{
+  color: rgb(135, 129, 129);
+}
+
+.navbar-toggler{
+  background-color: rgb(44, 42, 42);
+}
+.navbar-toggler:hover{
+  background-color: rgb(58, 56, 56);
+  
 }

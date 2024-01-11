@@ -120,3 +120,17 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+.col-md-4{
+  margin-top: 5rem;
+}
+/*logo*/
+.navbar-brand{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
+}
