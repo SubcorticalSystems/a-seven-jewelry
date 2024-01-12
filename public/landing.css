@@ -5,6 +5,7 @@
 }
 html{
   overflow: hidden;
+  background-color: var(--primary-color);
 }
 
 :root {
@@ -101,4 +102,5 @@ body {
 
 .hamburger{
   position: fixed;
+  top: 0;
 }
