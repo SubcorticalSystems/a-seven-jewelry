@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
 }
-/*
+
 html{
   overflow: hidden;
   background-color: var(--overlay-color);
-}*/
+}
 
 :root {
   --primary-color: rgba(104, 82, 226, 0.5);
