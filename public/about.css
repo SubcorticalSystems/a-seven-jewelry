@@ -134,3 +134,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0;
   background-color: white;
 }
+
+nav-item{
+  display: inline-block;
+  padding-right: .8rem;
+  font-size: 1.2rem;
+}
+
+.navbar-adjust{
+  padding-left: .3rem;
+  text-align: center;
+  margin-top: 0;
+}

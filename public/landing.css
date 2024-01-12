@@ -20,6 +20,7 @@
 body {
   font-family: var(--custom-font);
   line-height: 1.4;
+  background-attachment: fixed;
 }
 
 .container {
@@ -34,6 +35,7 @@ body {
   color: #E8E2E2;
   height: 100vh;
   position: relative;
+  background-attachment: fixed;
 }
 
 .showcase::before {
@@ -46,6 +48,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
+  background-attachment: fixed;
 }
 .showcase .showcase-inner {
   display: flex;

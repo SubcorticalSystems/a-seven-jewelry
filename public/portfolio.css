@@ -181,7 +181,7 @@ h1{
   fill: currentColor;
 }
 
-
+/*seems unneccesary?
 .nav-scroller {
   position: relative;
   z-index: 2;
@@ -200,12 +200,13 @@ h1{
   -webkit-overflow-scrolling: touch;
 }
 
+
 .fw-normal{
   font-size: 2.3rem;
   padding-top: .8rem;
   padding-bottom: .5rem;
 }
-
+*/
 .marketing{
   padding-bottom: 0;
 }
@@ -223,11 +224,32 @@ h1{
 .navbar{
   padding-top: 0;
   padding-bottom: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 .nav-link{
   color: rgb(24, 23, 23);
 }
+
+.nav-item{
+  display: inline-block;
+  padding-right: .8rem;
+  font-size: 1.2rem;
+}
+
+.navbar-adjust{
+  padding-left: .3rem;
+  text-align: center;
+  margin: 0;
+}
+
+
+/*
+@media (min-width: 768px) {
+  .navbar-adjust{
+    
+  }
+}
+*/
 
 .nav-link:hover{
   color: rgb(135, 129, 129);
