@@ -100,5 +100,6 @@ body {
 }
 
 .hamburger{
-  position: sticky;
+  position: fixed;
+  top: 0;
 }
