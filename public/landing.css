@@ -5,11 +5,7 @@
 }
 html{
   overflow: hidden;
-  background-color: var(--primary-color);
-}
-.menu-wrap{
-  position: fixed;
-  top: 0;
+  background-color: var(--overlay-color);
 }
 
 :root {
