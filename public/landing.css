@@ -7,6 +7,10 @@ html{
   overflow: hidden;
   background-color: var(--primary-color);
 }
+.menu-wrap{
+  position: fixed;
+  top: 0;
+}
 
 :root {
   --primary-color: rgba(104, 82, 226, 0.5);
@@ -100,7 +104,3 @@ body {
   }
 }
 
-.menu-wrap{
-  position: fixed;
-  top: 0;
-}
